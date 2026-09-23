@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portflio | HUSSEIN_SHOKOR</title>
+    <title>Portflio | HUSSEIN_SHOKOR_</title>
       <!-- Bootstrap Icons -->
     <link
         rel="stylesheet"
@@ -926,62 +926,34 @@
 <!-- PROJECT MODAL -->
 
 
-<div
-    class="modal fade"
-    id="projectModal"
-    tabindex="-1">
+<!-- The Modal -->
+<div class="modal fade" id="projectModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
 
-    <div class="modal-dialog modal-dialog-centered">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Projects</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
 
-        <div class="modal-content">
+      <!-- Modal body -->
+      <div class="modal-body">
+Projects in my
+        <a href="https://github.com/huseinshO" 
+        class="text-primary" 
+        style="text-decoration: none;">Github <--</a>
+      </div>
 
-
-            <div class="modal-header">
-
-                <h5
-                    class="modal-title"
-                    id="modalTitle">
-
-                    Project
-
-                </h5>
-
-
-                <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal">
-
-                </button>
-
-            </div>
-
-
-            <div
-                class="modal-body"
-                id="modalBody">
-
-            </div>
-
-
-            <div class="modal-footer">
-
-                <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal">
-
-                    Close
-
-                </button>
-
-            </div>
-
-        </div>
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
 
     </div>
-
+  </div>
 </div>
+
 
 
                               <!-- CERTIFICATIONS -->
@@ -1203,7 +1175,7 @@
 
                         <div class="col-md-6 mb-3">
 
-                            <label class="form-label">
+                            <label for="name" class="form-label">
                                 Your Name
                             </label>
 
@@ -1211,7 +1183,7 @@
                             <input
                                 type="text"
                                 class="form-control"
-                                id="contactName"
+                                id="name" 
                                 placeholder="Enter your name"
                                 required>
 
@@ -1221,7 +1193,7 @@
 
                         <div class="col-md-6 mb-3">
 
-                            <label class="form-label">
+                            <label for="email" class="form-label">
                                 Your Email
                             </label>
 
@@ -1229,7 +1201,7 @@
                             <input
                                 type="email"
                                 class="form-control"
-                                id="contactEmail"
+                                id="email"
                                 placeholder="Enter your email"
                                 required>
 
@@ -1241,7 +1213,7 @@
 
                     <div class="mb-3">
 
-                        <label class="form-label">
+                        <label for="sub"   class="form-label">
                             Subject
                         </label>
 
@@ -1249,7 +1221,7 @@
                         <input
                             type="text"
                             class="form-control"
-                            id="contactSubject"
+                            id="sub"
                             placeholder="Enter subject"
                             required>
 
@@ -1259,14 +1231,14 @@
 
                     <div class="mb-4">
 
-                        <label class="form-label">
+                        <label for="messag" class="form-label">
                             Message
                         </label>
 
 
                         <textarea
                             class="form-control"
-                            id="contactMessage"
+                            id="messag"
                             rows="6"
                             placeholder="Write your message..."
                             required>
@@ -1318,9 +1290,10 @@
 
                 <p>
                     MIS Graduate | Web Developer |
-                    Cybersecurity Researcher
+                    Cybersecurity Researcher <br> <br>
+   <i class="bi bi-envelope-fill mb-4">huseinshokor29@gmail.com </i>
                 </p>
-
+  
             </div>
 
 
