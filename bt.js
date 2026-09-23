@@ -4226,3 +4226,7 @@
   );
 });
 //# sourceMappingURL=bootstrap.bundle.min.js.map
+// for spinner
+window.addEventListener("load", function () {
+    document.getElementById("loader").style.display = "none";
+});
